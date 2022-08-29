@@ -13,15 +13,15 @@
 
 #tituloInicial {
   position: absolute;
-  font-family: Helvetica;
-  font-size: 50px;
-  top: 327px;
-  left: 377px;
-  color: white;
-}
+  font-family:Impact;
+  font-size: 55px;
+  top: 337px;
+  left: 240px;
+  color:#f8efed;
+  }
 
 .segundaSecao {
-  background-color: #061521;
+  background-color: #e2e2e2;
   column-count: 2;
   padding-top: 100px;
   width: 100%;
@@ -37,7 +37,7 @@
 
 .conteudo {
   width: 80%;
-  color: white;
+  color:#00278b;
 }
 
 .tituloTexto2 {
@@ -46,23 +46,71 @@
 }
 
 #miniTexto {
-  font-family: Helvetica;
-  font-size: 16px;
+  font-family: Verdana;
+  font-size: 19px;
+ 
 }
 
 .terceiraSecao {
+  height: 750px;
   width: 100%;
-  height: 700px;
-  background-color: rgb(240, 255, 255);
-  display: flex;
-  justify-content: center;
+  background: url(/img/imagemSecao3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 100px;
 }
 
-.quartaSecao {
+.container2 {
+  column-width: 250px;
+  column-gap: 25px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  break-inside: avoid;
+  page-break-inside: avoid;
+  margin-block-start: 120px;
+}
+
+.card {
+  break-inside: avoid;
+  page-break-inside: avoid;
+  border: 3px solid white;
+  padding: 7px;
+  background-color: rgba(0, 0, 255, 0);
+  margin-block-end: 30px;
+  color: white;
+}
+
+#tituloSecao4{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 21px;
+  text-align: center;
+  color: white;
+}
+
+.quartaSecao{
   width: 100%;
-  height: 700px;
-  background-color: rgb(65, 105, 225);
-  display: flex;
-  justify-content: center;
-  padding-top: 0%;
+  height: 200px;
+  background-color:#11233a;
+}
+
+#fotoLinkedin{
+  width: 30px;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 160px;
+}
+
+#fotoInstagran{
+  width: 30px;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 500px;
+}
+
+#fotoWhats{
+  width: 30px;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 820px;
 }
