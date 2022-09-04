@@ -1,0 +1,109 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui,
+    -apple-system, Helvetica, Arial,
+    sans-serif;
+    background: #102950;
+    height: 8vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+body{
+    background: url(/paginas/img/imagemFeedback.jpg)
+    no-repeat top / cover;
+    height: 660px;
+    font-family: sans-serif;
+    overflow-y: hidden;
+}
+
+.bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+form {
+    width: 450px;
+    margin: 150px auto;
+}
+
+input, textarea {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #1abc9c;
+    width: 100%;
+    padding: 15px; 
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    outline: none;
+    transition: all .3s ease;
+}
+
+form ::placeholder {
+    color: rgba(26, 188, 156, .5);
+}
+
+textarea {
+    height: 200px;
+    resize: vertical;
+}
+
+.submit{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 22px;
+    border-radius: 7px;
+    font-weight: 700;
+    border: none;
+    background-color: #1abc9c;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .3 ease;
+}
+
+.sumit:hover {
+    background-color: rgba(26, 188, 156, .5);
+    box-shadow: none;
+}
+
