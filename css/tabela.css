@@ -3,15 +3,6 @@
     margin: 0px;
 }
 
-body {
-    background-image: url('https://i.postimg.cc/WpC5WWk4/Sign-in.gif');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 179vh;
-    width: 100vw;
-    background-position: center;
-}
-
 a {
     color: #fff;
     text-decoration: none;
@@ -47,6 +38,15 @@ nav {
 .nav-list li {
     letter-spacing: 3px;
     margin-left: 32px;
+}
+
+body {
+    background-image: url('https://i.postimg.cc/WpC5WWk4/Sign-in.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 179vh;
+    width: 100vw;
+    background-position: center;
 }
 
 th,

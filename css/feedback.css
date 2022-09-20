@@ -25,8 +25,8 @@ nav {
     justify-content: space-around;
     align-items: center;
     font-family: system-ui,
-    -apple-system, Helvetica, Arial,
-    sans-serif;
+        -apple-system, Helvetica, Arial,
+        sans-serif;
     background: #102950;
     height: 8vh;
 }
@@ -41,15 +41,15 @@ nav {
     margin-left: 32px;
 }
 
-body{
-    background: url(/paginas/img/imagemFeedback.jpg)
-    no-repeat top / cover;
+body {
+    background: url("../img/imagemFeedback.jpg");
+    background-repeat: no-repeat top / cover;
     height: 660px;
     font-family: sans-serif;
     overflow-y: hidden;
 }
 
-.bg{
+.bg {
     position: absolute;
     top: 0;
     left: 0;
@@ -64,12 +64,13 @@ form {
     margin: 150px auto;
 }
 
-input, textarea {
+input,
+textarea {
     color: #fff;
     background-color: transparent;
     border: 2px solid #1abc9c;
     width: 100%;
-    padding: 15px; 
+    padding: 15px;
     font-size: 18px;
     font-weight: 600;
     line-height: 25px;
@@ -88,7 +89,7 @@ textarea {
     resize: vertical;
 }
 
-.submit{
+.submit {
     width: 100%;
     padding: 10px 0;
     font-size: 22px;
@@ -106,4 +107,3 @@ textarea {
     background-color: rgba(26, 188, 156, .5);
     box-shadow: none;
 }
-
